@@ -1,21 +1,26 @@
+#String
 variable "vpcname" {
   type = string
   default = "myvpc"
 }
 
+#Number
 variable "sshport" {
   type = number
   default = 22
 }
 
+#Boolean
 variable "enabled" {
     default = true
 }
+
 
 variable "mylist" {
   type = list(string)
   default = ["value1","value2"]
 }
+
 
 variable "mymap" {
   type = map
