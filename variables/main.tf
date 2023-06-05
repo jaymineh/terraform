@@ -42,6 +42,7 @@ resource "aws_vpc" "JMNvpc" {
  }
 }
 
+#VPC_Input
 variable "inputname" {
   type = string
   description = "Set the name of the VPC"
@@ -51,11 +52,13 @@ output "vpcid" {
     value = aws_vpc.JMNvpc.id
 }
 
+#Tuple
 variable "mytuple" {
   type = tuple([string, number, string])
   default = ["cat", 1, "dog"]
 }
 
+#Object
 variable "myobject" {
     type = object({name = string, port = list(number)})
     default = {
