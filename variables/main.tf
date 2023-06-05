@@ -15,13 +15,13 @@ variable "enabled" {
     default = true
 }
 
-
+#List
 variable "mylist" {
   type = list(string)
   default = ["value1","value2"]
 }
 
-
+#Map
 variable "mymap" {
   type = map
   default = {
