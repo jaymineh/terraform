@@ -1,4 +1,4 @@
-# Dynamic Blocks on security groups
+# Dynamic blocks on security groups
 
 This is a continuation from the security groups hands-on. Imagine you have to configure security groups manually for a large number of instances. It would quickly turn into a nightmare.
 
