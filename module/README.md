@@ -9,3 +9,8 @@ The `main.tf` file is also performing referencing on the `ec2.tf` file where the
 
 Updated this repo with another trial for modules. This time, I added `tags` and `output` arguments. See screenshots below:
 
+*Created Instance*
+![Created Instance](images/module.png)
+
+*Displayed Output*
+![Displayed Output](images/output.png)
