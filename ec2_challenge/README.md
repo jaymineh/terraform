@@ -14,10 +14,10 @@ The security groups were created to allow web traffic (HTTP & HTTPS) using dynam
 After successfully running and building the infrastructure, going to the IP of the webserver via a web browser leads to a success message to show that the configuration ran successfully. See screenshots below:
 
 *Apache successfully installed*
-![Successful Webpage](webpage.png)
+![Successful Webpage](images/webpage.png)
 
 *Elastic IP deployed*
-![Elastic IP Deployed](EIP.png)
+![Elastic IP Deployed](images/EIP.png)
 
 *Database and Web Servers*
-![DB & Web Servers](dbweb.png)
+![DB & Web Servers](images/dbweb.png)
