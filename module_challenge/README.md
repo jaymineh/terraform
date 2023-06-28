@@ -9,13 +9,17 @@ In the `main.tf` file, the provider details are provided and the modules are the
 The build was successful with the instances being deployed with the defined security group, the EIP was successfully attached to the webserver and the IP address was reachable from the browser. See screenshots below:
 
 *Security Group*
+
 ![Security Group](images/module_SG1.png)
 
 *Running Instances*
+
 ![Running Instances](images/module_instances.png)
 
 *Terraform Outputs*
+
 ![Terraform Outputs](images/module_outputs.png)
 
 *Webpage*
+
 ![Webpage](images/webpage.png)
