@@ -1,4 +1,4 @@
-# Challenge 2
+# Challenge 2 (EC2 Challenge)
 
 The task in this challenge aims to test knowledge on EC2 using terraform. The tasks are listed below to be done using terraform only:
 
